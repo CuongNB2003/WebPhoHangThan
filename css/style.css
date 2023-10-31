@@ -1,0 +1,11 @@
+/* lưu trữ màu ở đây */
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --red-color: #a82624;
+}
+
+/* đi css cho trang web ở đây có thể tách file ra nếu sợ dài */
+.container_css {
+    background: var(--white-color);
+}
