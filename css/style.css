@@ -1,3 +1,9 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --red-color: #a82624;
+}
+
 body {
     height: 100%;
     font-family: Helvetica;
@@ -11,13 +17,13 @@ body header {
     height: 880px;
     justify-content: space-between;
     background-image: url("../images/banner.jpg");
-    background-color: rgba(0, 0, 0, 1);
+    background-color: var(--black-color);
     background-size: cover;
     position: relative;
     border-style: double;
     margin-bottom: 10px;
     border-width: 5px;
-    border-bottom: #000000;
+    border-bottom: var(--black-color);
 }
 
 body header img {
@@ -42,20 +48,20 @@ header nav {
 
 .search-input {
     flex: 1;
-    border: white;
+    border: var(--white-color);
     border-radius: 10px;
     border-style: groove;
     border-width: 1px;
     padding: 10px;
     margin-right: 8px;
     font-size: 16px;
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.0);
+    color: var(--white-color);
+    background-color: var(--black-color);
 }
 
 .search-button {
     background-color: rgba(0, 116, 217, 0.0);
-    color: #fff;
+    color: var(--white-color);
     border: none;
     scale: unset;
     align-content: center;
@@ -84,11 +90,11 @@ nav li {
 nav a {
     font-size: 14px;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 .black-overlay {
-    background: linear-gradient(rgba(0, 0, 0, 1), transparent);
+    background: linear-gradient( var(--black-color), transparent);
     position: absolute;
     top: 0;
     left: 0;
@@ -106,22 +112,31 @@ nav a {
     
 }
 .mid .content h3{
-    color: rgb(156, 27, 27);
+    color: var(--red-color);
     text-align: center;
 }
 .mid .content .p1{
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 18px;
-    color: rgb(156, 27, 27);
+    color: var(--red-color);
     text-align: justify;
 }
 .mid .content .p2{
     margin: 0;
     font-size: 18px;
-    color: rgb(156, 27, 27);
+    color: var(--red-color);
     text-align: center;
 }
 .mid .content .p3{
     text-align: center;
+}
+
+.menu-item {
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.menu-item:active, .menu-item:focus, .menu-item:hover {
+    color: var(--red-color);
 }
