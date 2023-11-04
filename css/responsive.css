@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    body {
+        height: 100%;
+        font-family: Helvetica;
+        font-size: 10px;
+    }
+    header {
+        padding: 0 0;  
+        flex-direction: column-reverse;
+    }
+    .mid {
+        flex-direction: column;
+    }
+    nav ul li a{
+        font-size: 12px;
+        
+    }
+    .search-bar{
+        max-width: 100%;
+    }
+    nav ul{
+        width: 30px;
+        margin-right: 40px;
+    }
+    .child-content {
+        flex-direction: column;
+
+    }
+
+    .content_menu {
+        flex-direction: column;
+    }
+
+    .mid-menu {
+        flex-direction: column;
+    }
+
+    .content {
+        max-width: 60%;
+    }
+
+    .image {
+        display: none;
+    }
+   
+}
