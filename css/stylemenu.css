@@ -261,7 +261,7 @@ nav a {
 
 .product button {
     background-color: var(--red-color);
-    color: white;
+    color: var(--white-color);
     height: 28px;
     width: 120px;
     text-align: center;
