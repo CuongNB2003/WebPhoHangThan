@@ -273,7 +273,9 @@ nav a {
 }
 
 .item_product {
+    flex: auto;
     font-weight: bold;
     color: var(--red-color);
     font-size: 24px;
+    text-align: center
 }
