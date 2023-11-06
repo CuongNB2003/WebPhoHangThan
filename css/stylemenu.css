@@ -6,18 +6,20 @@
     --content-h1-color: #a52a2a;
 }
 
+
 body {
     height: 100%;
     font-family: Helvetica;
     margin: 0;
     padding: 0;
 }
+
 body header {
     display: flex;
     width: 100%;
     height: 880px;
     justify-content: space-between;
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/banner_book.jpg");
     background-color: var(--black-color);
     background-size: cover;
     position: relative;
@@ -26,6 +28,7 @@ body header {
     border-width: 5px;
     border-bottom: var(--black-color);
 }
+
 body header img {
     width: 70px;
     height: 70px;
@@ -69,6 +72,7 @@ header nav {
     margin: 4px;
     cursor: pointer;
 }
+
 .search-button i {
     background-color: transparent;
     border: none;
@@ -198,4 +202,80 @@ nav a {
 
 .content_menu .item1 p {
     color: var(--red-color);
+}
+
+.bottom-menu {
+    margin-top: 50px;
+}
+
+.bottom-menu .item_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-menu h3 {
+    color: var(--red-color);
+    font-family: Times;
+
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bottom-menu .item_menu .product {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+}
+
+.bottom-menu .item_menu .product img {
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.bottom-menu .item_menu .item-next {
+    width: 80px;
+    height: 100px;
+}
+
+.product h2 {
+    font-size: 20px;
+    color: var(--white-color);
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 100%;
+    height: 21%;
+    border-radius: 20px;
+    transform: translate(-45%, -50%);
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 40px;
+    font-size: 15px;
+    background: linear-gradient(to top, var(--red-color), transparent);
+}
+
+.product button {
+    background-color: var(--red-color);
+    color: var(--white-color);
+    height: 28px;
+    width: 120px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.item_product {
+    flex: auto;
+    font-weight: bold;
+    color: var(--red-color);
+    font-size: 24px;
+    text-align: center
 }
