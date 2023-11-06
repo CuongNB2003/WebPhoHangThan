@@ -42,5 +42,15 @@
     .image {
         display: none;
     }
-   
+   .form-mid{
+    width: 500px;
+    height: auto;
+    font-size: 12px;
+   }
+   .item-all{
+    flex-direction: column;
+   }
+   .item_menu{
+    flex-direction: column;
+   }
 }

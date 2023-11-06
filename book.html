@@ -8,20 +8,21 @@
     <script src="https://kit.fontawesome.com/db6a5576ff.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/css/bootstrap.min.css">
     <link rel="icon" type="image/x-icon" href="/website/images/logo.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylebook.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Book | Phở Hàng Than </title>
 </head>
 
 <body>
     <header>
-        <div class="black-overlay"></div>
+        <div class="header-top">
+            <div class="black-overlay"></div>
         <img src="images/logo.png" alt="">
         <nav>
             <ul>
                 <li ><a href="index.html" class="menu-item ">Trang Chủ</a></li>
                 <li><a href="menu.html" class="menu-item ">Thực đơn</a></li>
                 <li><a href="book.html" class="menu-item ">Đặt bàn</a></li>
-                <li><a href="#" class="menu-item ">Liên Hệ</a></li>
             </ul>
             <div class="search-bar">
                 <input class="search-input" type="text">
@@ -30,7 +31,59 @@
                 </button>
             </div>
         </nav>
+        </div>
+        
+        <div class="form-mid">
+            <form>
+                <div class="top-form">
+                    <h3 style="margin-left: 30px; color: white; font-size: 25px;">Đặt bàn online</h3>
+                    <h3 style="margin-left: 100px; color: white; ">|</h3>
+                    <h3 style="margin-left: 30px; color: white; font-size: 25px;">Đặt bàn qua số điện thoại</h3>
+                </div>
+                <div class="item-all">
+                    <div class="item-form">
+                        <div class="item">
+                            <p style="font-weight: 600; white-space: nowrap;">Họ và tên</p>
+                            <input type="text" class="underline-input" placeholder=" ">
+                        </div>
+                        <div class="item">
+                            <p style="font-weight: 600; white-space: nowrap;">Số khách</p>
+                            <input type="text" class="underline-input" placeholder=" ">
+                        </div>
+                        <div class="item">
+                            <p style="font-weight: 600; white-space: nowrap;">Ngày đặt</p>
+                            <input type="datetime" class="underline-input" placeholder=" ">
+                        </div>
+                        <div class="item" style="margin-top: 40px;">
+                            <p style="font-weight: 600; white-space: nowrap;">Thông tin </p>
+                            <textarea style="border: 1px solid rgb(105, 101, 101); background: none; border-radius: 20px; width: 340px; height: 150px;">
+    
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="item-right">
+                        <div class="item">
+                            <p style="font-weight: 600;white-space: nowrap;">Số điện thoại</p>
+                            <input type="number" class="underline-input" placeholder=" ">
+                        </div>
+                        <div class="item">
+                            <p style="font-weight: 600; white-space: nowrap;">Email</p>
+                            <input type="email" class="underline-input" placeholder=" " >
+                        </div>
+                        <div class="item">
+                            <p style="font-weight: 600; white-space: nowrap;">Giờ đặt bàn</p>
+                            <input type="datetime" class="underline-input" placeholder=" ">
+                        </div>
+                    </div>
+                    
+                </div>
+                <button type="submit" class="button-oder">
+                    Đặt bàn
+                </button>
+            </form>
+        </div>
     </header>
+    
 </body>
 
 </html>
