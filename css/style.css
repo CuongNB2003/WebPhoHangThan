@@ -1,3 +1,11 @@
+:root {
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --red-color: #a82624;
+    --gray-color: #888888;
+    --content-h1-color: #a52a2a;
+}
+
 body {
     height: 100%;
     font-family: Helvetica;
@@ -10,13 +18,13 @@ body header {
     height: 880px;
     justify-content: space-between;
     background-image: url("../images/banner.jpg");
-    background-color: rgba(0, 0, 0, 1);
+    background-color: var(--black-color);
     background-size: cover;
     position: relative;
     border-style: double;
     margin-bottom: 10px;
     border-width: 5px;
-    border-bottom: #000000;
+    border-bottom: var(--black-color);
 }
 body header img {
     width: 70px;
@@ -40,20 +48,20 @@ header nav {
 
 .search-input {
     flex: 1;
-    border: white;
+    border: var(--white-color);
     border-radius: 10px;
     border-style: groove;
     border-width: 1px;
     padding: 10px;
     margin-right: 8px;
     font-size: 16px;
-    color: #fff;
-    background-color: rgba(255, 255, 255, 0.0);
+    color: var(--white-color);
+    background-color: var(--black-color);
 }
 
 .search-button {
-    background-color: rgba(0, 116, 217, 0.0);
-    color: #fff;
+    background-color: var(--black-color);
+    color: var(--white-color);
     border: none;
     scale: unset;
     align-content: center;
@@ -81,11 +89,11 @@ nav li {
 nav a {
     font-size: 14px;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 .black-overlay {
-    background: linear-gradient(rgba(0, 0, 0, 1), transparent);
+    background: linear-gradient(var(--black-color), transparent);
     position: absolute;
     top: 0;
     left: 0;
@@ -106,7 +114,7 @@ nav a {
 }
 
 .mid .content h3 {
-    color: rgb(156, 27, 27);
+    color: var(--red-color);
     text-align: center;
 }
 
@@ -114,14 +122,14 @@ nav a {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 18px;
-    color: rgb(156, 27, 27);
+    color: var(--red-color);
     text-align: justify;
 }
 
 .mid .content .p2 {
     margin: 0;
     font-size: 18px;
-    color: rgb(156, 27, 27);
+    color: var(--red-color);
     text-align: center;
 }
 
@@ -156,20 +164,20 @@ nav a {
 }
 
 .content2 h1 {
-    color: rgb(156, 27, 27);
-    border-bottom: 5px solid brown;
+    color: var(--red-color);
+    border-bottom: 5px solid var(--content-h1-color);
     text-transform: uppercase;
     padding-bottom: 15px;
 }
 
 .content2 h3 {
     font-weight: 800;
-    color: rgb(156, 27, 27);
+    color: var(--red-color);
 }
 
 .content2 p {
     font-size: 18px;
-    color: rgb(156, 27, 27);
+    color: var(--red-color);
 }
 
 .content_menu {
@@ -181,7 +189,7 @@ nav a {
     height: 170px;
     border-radius: 18px;
     margin: 5px;
-    box-shadow: 0px 0px 10px 5px #888888;
+    box-shadow: 0px 0px 10px 5px var(--gray-color);
 }
 
 .content_menu .item1 {
@@ -189,5 +197,5 @@ nav a {
 }
 
 .content_menu .item1 p {
-    color: rgb(156, 27, 27);
+    color: var(--red-color);
 }
