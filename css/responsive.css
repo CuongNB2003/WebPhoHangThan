@@ -14,12 +14,12 @@
     }
     nav ul li a{
         font-size: 12px;
-        
     }
     .search-bar{
-        max-width: 100%;
+        display: none;
     }
     nav ul{
+        display: contents;
         width: 30px;
         margin-right: 40px;
     }
@@ -35,7 +35,7 @@
     .mid-menu {
         flex-direction: column;
     }
-
+    
     .content {
         max-width: 60%;
     }
@@ -44,14 +44,31 @@
         display: none;
     }
    .form-mid{
-    width: 500px;
-    height: auto;
+    width: 300px;
+    height: 900px;
     font-size: 12px;
    }
    .item-all{
     flex-direction: column;
+    width: 300px;
    }
    .item_menu{
     flex-direction: column;
+   }
+   .item-form{
+    width: 300px;
+   }
+   .underline-input{
+    width: 170px;
+   }
+   .form-mid .top-form h3{
+    display: none;
+   }
+   .item-right{
+    margin-bottom: 60px;
+    width: 300px;
+   }
+   .button-oder{
+    margin-top: 60px;
    }
 }
