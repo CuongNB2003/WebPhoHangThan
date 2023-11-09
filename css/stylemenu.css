@@ -147,6 +147,7 @@ nav a {
 
 .mid-menu .img-mid-menu {
     width: 500px;
+
 }
 
 .content-right {
@@ -155,7 +156,7 @@ nav a {
 
 .mid-menu .content-right .img-mid1-menu {
     width: 500px;
-    height: 500px;
+    height: 400px;
     margin-top: 10px;
 }
 
@@ -238,8 +239,8 @@ nav a {
 }
 
 .bottom-menu .item_menu .item-next {
-    width: 80px;
-    height: 100px;
+    width: 70px;
+    height: 90px;
 }
 
 .product h2 {
