@@ -2,7 +2,7 @@
     --white-color: #ffffff;
     --black-color: #000000;
     --red-color: #a82624;
-    --gray-color: #888888;
+    --gray-color: rgba(255, 255, 255, 0.5);
     --content-h1-color: #a52a2a;
 }
 
@@ -109,7 +109,8 @@ nav li {
     background-color: var(--gray-color);
     border-radius: 30px;
 }
-.top-form{
+
+.top-form {
     display: flex;
     justify-content: space-around;
     padding: 15px;
@@ -118,6 +119,7 @@ nav li {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
 }
+
 .underline-input {
     border: none;
     outline: none;
@@ -127,25 +129,30 @@ nav li {
     margin-left: 10px;
     width: 3000px;
 }
-.item-all{
+
+.item-all {
     display: flex;
 }
-.item-form{
+
+.item-form {
     padding: 50px;
     width: 440px;
     height: 200px;
 }
-.item{
+
+.item {
     display: flex;
     margin-bottom: 10px;
 }
-.item-right{
+
+.item-right {
     padding: 50px;
     width: 450px;
     margin-top: 10px;
     height: 100px;
 }
-.button-oder{
+
+.button-oder {
     margin-top: 30px;
     padding: 12px 50px;
     border-radius: 10px;
